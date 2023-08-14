@@ -24,7 +24,7 @@ This project demonstrates the power of combining OpenAI's GPT-3.5 language model
    git clone https://github.com/your-username/web-app-generator.git
    cd web-app-generator
    
-Customization
+### Customization
 Feel free to customize and enhance this project according to your needs:
 
 Improve the user interface design for a more polished appearance.

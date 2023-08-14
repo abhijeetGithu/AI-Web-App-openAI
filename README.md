@@ -24,7 +24,12 @@ This project demonstrates the power of combining OpenAI's GPT-3.5 language model
    git clone https://github.com/your-username/web-app-generator.git
    cd web-app-generator
    
-2-Install Dependencies:
-```pip install streamlit
+Customization
+Feel free to customize and enhance this project according to your needs:
+
+Improve the user interface design for a more polished appearance.
+Add error handling and validation to ensure smooth user interaction.
+Experiment with different GPT-3.5 parameters to fine-tune the generated code.
+Extend the application to support additional programming languages or frameworks.
 
 

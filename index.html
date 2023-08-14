@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Dashboard</title>
+    <style>
+        /* Amazon style CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .metric {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .metric h3 {
+            margin-top: 0;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .metric p {
+            margin-bottom: 0;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .barchart {
+            width: 100%;
+            height: 200px;
+            background-color: #fff;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="logo" src="https://about.twitter.com/content/dam/about-twitter/en/brand-toolkit/brand-download-img-1.jpg.twimg.1920.jpg" alt="Twitter Logo">
+            <h1>Social Media Dashboard</h1>
+        </div>
+        <div class="dashboard">
+            <div class="metric">
+                <h3>Follower Count</h3>
+                <p>5000</p>
+            </div>
+            <div class="metric">
+                <h3>Engagement Rate</h3>
+                <p>12%</p>
+            </div>
+            <div class="metric">
+                <h3>Post Performance</h3>
+                <p>1000 likes</p>
+            </div>
+            <div class="barchart"></div>
+        </div>
+    </div>
+</body>
+</html>

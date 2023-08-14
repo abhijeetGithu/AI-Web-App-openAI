@@ -23,4 +23,8 @@ This project demonstrates the power of combining OpenAI's GPT-3.5 language model
    ```bash
    git clone https://github.com/your-username/web-app-generator.git
    cd web-app-generator
+   
+2-Install Dependencies:
+```pip install streamlit
+
 
